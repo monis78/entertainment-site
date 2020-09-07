@@ -1,0 +1,77 @@
+.logo{
+    color : "black";
+    border-radius:"0 40px 40px 0";
+    border :"5px solid ";
+    border-left:"0px";
+    border-color:"deeppink";
+    background-color:"white";
+    height:100vh;
+   
+    
+    margin: "10px 0px "
+}
+.search{
+    max-width:50% ;
+}
+arrow-up {
+    width: 0;
+    height: 0;
+    
+    border-right: 16px solid transparent;
+    border-left: 16px solid transparent;
+    
+    border-bottom: 20px solid #8888e8;
+}
+.navslash::before{
+    content:"";
+    transform:" skew(-45deg)";
+    background-color: yellow;
+    border-style: solid;
+    border-width: 0 0 20px 20px;
+    border-color: #FFC107;
+    transform:skew(-45deg)
+
+}
+.navslash::after{
+    content:"";
+    transform:" skew(-45deg)";
+    background-color: yellow;
+    border-style: solid;
+    border-width: 0 0 20px 20px;
+    border-color: #FFC107;
+    transform:skew(45deg)
+
+}
+.nav-link {
+     
+    padding: 0rem 0rem !important 
+}
+
+
+
+
+@media only screen and (max-width: 1024px) and (min-width : 768px ){
+    .search{
+    max-width:65%;
+    
+    }
+   
+}
+  @media only screen and (max-width: 768px) and (min-width : 464px ){
+    .search{
+    visibility:hidden;
+    }
+    .userbar{
+        max-height: 24px;
+    }
+  }
+  @media only screen and (max-width: 464px){
+    .search{
+    visibility:hidden;
+    }
+    .navmail{
+      
+        font-size: .6em;
+       
+    }
+}

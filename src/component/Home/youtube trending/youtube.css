@@ -1,0 +1,14 @@
+
+.videos
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe
+{
+    padding: 6px;
+    border-radius: 4px;
+}

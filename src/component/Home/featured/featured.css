@@ -1,0 +1,61 @@
+.featured{
+  height:100%
+}
+.featured-image{
+    
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    border-bottom-left-radius:1.4vw;
+    border-top-right-radius:1.4vw;
+    overflow:hidden;
+    background-image:url('https://cdn.photographylife.com/wp-content/uploads/2017/01/What-is-landscape-photography.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    max-width: 200px;
+    max-height: 350px;
+    min-height: 100px;
+    
+    
+  
+  }
+
+  @media only screen and (min-width: 1024px){
+    .featured-image{
+      
+      width: 14.81vw;
+      margin: 0.5vw;
+      height: calc((100vw / 7) * 1.5);
+     
+    }
+  }
+
+    @media only screen and (max-width: 1024px) and (min-width : 768px ){
+      .featured-image{
+        width: 14.81vw;
+        margin: 0.5vw;
+        height: calc((100vw / 7) * 1.5);
+      }
+    }
+
+    @media only screen and (max-width: 768px) and (min-width : 464px ){
+      .featured-image{
+        width: 14.81vw;
+        margin: 0.35vw;
+        height: calc((100vw / 7) * 1.5);
+      }
+    }
+
+  @media only screen and (max-width: 464px){
+    .featured-image{
+      width: 14.81vw;
+      margin: 0.5vw;
+      height: calc((100vw / 7) * 1.5);
+    
+
+    }
+  }
+
+
+
+
